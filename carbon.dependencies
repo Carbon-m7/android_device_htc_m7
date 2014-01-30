@@ -1,18 +1,20 @@
 [
    {
-    "repository": "CarbonDev/android_device_htc_m7-common",
-    "target_path": "device/htc/m7-common"
+    "repository":  "CarbonDev/android_device_htc_m7-common",
+    "target_path":  "device/htc/m7-common"
    },
    {
-    "repository": "CarbonDev/android_device_htc_msm8960-common",
-    "target_path": "device/htc/msm8960-common"
+    "repository":  "CarbonDev/android_device_htc_msm8960-common",
+    "target_path":  "device/htc/msm8960-common"
    },
    {
-    "repository": "CarbonDev/android_kernel_htc_m7",
-    "target_path": "kernel/htc/m7"
+    "remote":       "cm",
+    "repository":   "CyanogenMod/android_kernel_htc_msm8960",
+    "target_path":  "kernel/htc/msm8960",
+    "revision":     "cm-11.0"
    },
    {
-     "repository": "CarbonDev/proprietary_vendor_htc",
-     "target_path": "vendor/htc"
+    "repository":   "CarbonDev/proprietary_vendor_htc",
+    "target_path":  "vendor/htc"
    }
 ]
